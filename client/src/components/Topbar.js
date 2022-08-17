@@ -7,7 +7,7 @@ import React, { useContext } from "react";
 function Topbar() {
   const reactCtx = useContext(ReactContext);
 
-  const isLoggedIn = reactCtx.token.access;
+  const isLoggedIn = reactCtx.token;
 
   return (
     <>
