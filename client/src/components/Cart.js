@@ -5,7 +5,6 @@ import ReactContext from "../context/react-context";
 
 const Cart = () => {
   const [furniture, setFurniture] = useState([]);
-  const [order, setOrder] = useState([]);
   const [error, setError] = useState(null);
   const reactCtx = useContext(ReactContext);
 
