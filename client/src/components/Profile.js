@@ -15,7 +15,7 @@ const Profile = (props) => {
 
   const fetchUser = async (url, config) => {
     try {
-      const url = `http://localhost:5001/users/viewUser`;
+      const url = `/users/viewUser`;
       const config = {
         method: "GET",
         headers: {

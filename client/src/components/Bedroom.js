@@ -6,7 +6,7 @@ const Bedroom = () => {
   const [product, setProduct] = useState([]);
 
   const handleDisplay = async () => {
-    const url = `http://localhost:5001/users/viewBedroomFurniture`;
+    const url = `/users/viewBedroomFurniture`;
     const config = {
       method: "GET",
       headers: {

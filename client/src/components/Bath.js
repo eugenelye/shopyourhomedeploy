@@ -5,7 +5,7 @@ const Bath = () => {
   const [product, setProduct] = useState([]);
 
   const handleDisplay = async () => {
-    const url = `http://localhost:5001/users/viewBathFurniture`;
+    const url = `/users/viewBathFurniture`;
     const config = {
       method: "GET",
       headers: {

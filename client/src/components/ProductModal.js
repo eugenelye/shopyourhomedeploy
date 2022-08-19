@@ -22,7 +22,7 @@ const ProductModal = (props) => {
       return alert("Error! Please ensure Name and DOB is filled in");
     }
 
-    const url = "http://localhost:5001/users/addFurniture";
+    const url = "/users/addFurniture";
     const res = await fetch(url, {
       method: "PATCH",
       body: JSON.stringify(data),

@@ -21,7 +21,7 @@ const EditModal = (props) => {
       address: addressRef.current.value,
     };
 
-    const url = "http://localhost:5001/users/editUser";
+    const url = "/users/editUser";
     const res = await fetch(url, {
       method: "PATCH",
       body: JSON.stringify(data),

@@ -9,7 +9,7 @@ const Order = () => {
 
   const fetchUserOrder = async (url, config) => {
     try {
-      const url = `http://localhost:5001/users/viewUserOrder`;
+      const url = `/users/viewUserOrder`;
       const config = {
         method: "GET",
         headers: {

@@ -26,7 +26,7 @@ const List = (props) => {
       return alert("Error! Please add the furniture correctly");
     }
 
-    const url = "http://localhost:5001/users/addFurniture";
+    const url = "/users/addFurniture";
     const res = await fetch(url, {
       method: "PATCH",
       body: JSON.stringify(data),

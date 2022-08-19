@@ -18,7 +18,7 @@ function Login(props) {
       username: usernameRef.current.value,
       password: passwordRef.current.value,
     };
-    const url = "http://localhost:5001/users/login";
+    const url = "/users/login";
     const res = await fetch(url, {
       method: "POST",
       body: JSON.stringify(data),

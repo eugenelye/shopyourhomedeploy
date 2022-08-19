@@ -7,7 +7,7 @@ const Dining = () => {
   const [product, setProduct] = useState([]);
 
   const handleDisplay = async () => {
-    const url = `http://localhost:5001/users/viewDiningFurniture`;
+    const url = `/users/viewDiningFurniture`;
     const config = {
       method: "GET",
       headers: {

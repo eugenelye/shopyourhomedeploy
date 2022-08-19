@@ -6,7 +6,7 @@ const Kitchen = () => {
   const [product, setProduct] = useState([]);
 
   const handleDisplay = async () => {
-    const url = `http://localhost:5001/users/viewKitchenFurniture`;
+    const url = `/users/viewKitchenFurniture`;
     const config = {
       method: "GET",
       headers: {

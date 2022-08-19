@@ -6,7 +6,7 @@ const Living = () => {
   const [product, setProduct] = useState([]);
 
   const handleDisplay = async () => {
-    const url = `http://localhost:5001/users/viewLivingFurniture`;
+    const url = `/users/viewLivingFurniture`;
     const config = {
       method: "GET",
       headers: {

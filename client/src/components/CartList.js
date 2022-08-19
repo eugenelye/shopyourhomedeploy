@@ -8,7 +8,7 @@ const CartList = (props) => {
     const data = {
       furnitureId: props.furniture._id,
     };
-    const url = "http://localhost:5001/users/deleteFurniture";
+    const url = "/users/deleteFurniture";
     const res = await fetch(url, {
       method: "DELETE",
       body: JSON.stringify(data),

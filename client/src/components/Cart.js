@@ -10,7 +10,7 @@ const Cart = () => {
 
   const fetchUserFuniture = async (url, config) => {
     try {
-      const url = `http://localhost:5001/users/viewUserFurniture`;
+      const url = `/users/viewUserFurniture`;
       const config = {
         method: "GET",
         headers: {

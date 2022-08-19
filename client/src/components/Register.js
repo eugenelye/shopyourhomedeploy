@@ -20,7 +20,7 @@ function Register(props) {
       name: nameRef.current.value,
       address: addressRef.current.value,
     };
-    const url = "http://localhost:5001/users/registration";
+    const url = "/users/registration";
     const res = await fetch(url, {
       method: "PUT",
       body: JSON.stringify(data),
