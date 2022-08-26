@@ -66,7 +66,7 @@ const Cart = () => {
       price: sum,
     };
 
-    const url = "http://localhost:5001/users/addOrder";
+    const url = "/users/addOrder";
     const res = await fetch(url, {
       method: "PATCH",
       body: JSON.stringify(data),
